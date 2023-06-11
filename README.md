@@ -1,4 +1,4 @@
-# auto-avia-offer
+# email-handler
 Классификация сообщений по типу заявка не заявка.
 <br>Выделение сущностей из письма.
 <br>Название модели: subm_embs_title_payload_lemmas_minilm.pkl
@@ -24,3 +24,7 @@
 Нужно установить все необходимые библиотеки командой: `pip install -r email_handler_module\\requirements.txt`, также нужно скачать дополнительно модель для spacy `python -m spacy download ru_core_news_lg`.
 
 Запустить модель в обвязке можно при помощи команды: `python email_handler_module\\main.py`. Когда она попросить ввести название файла, есть тестовый файл для проверки, его можно написать вот так `traind_data.xlsx`
+
+
+### Итоговый результат - 5 место
+https://codenrock.com/contests/aeroclub-challenge-2023#/rating/2516
